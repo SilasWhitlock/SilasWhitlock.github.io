@@ -1,11 +1,30 @@
-.test {
-  height: 2em;
-  width: 2em;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300');
 
-.red  {
-background: tomato;
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Open Sans';
+  font-weight: 100;
 }
-.green {
-  background: lightgreen;
+.land{
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1442115597578-2d0fb2413734?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e294cec5fda6058de783babf3123491);
+  background-size: cover;
+padding: 0 !important;
+  .gradient{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,.1), rgba(0,32,255,.75));
+      color: #fff;
+      margin: 0 !important;
+
+      h1 {
+        margin: 0;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+  }
 }
